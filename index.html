@@ -1,1 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SKR-International - Safe Your Business</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
+    body { background: #f8f9fa; color: #333; }
+    header { background: #0a2540; color: white; padding: 15px 20px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; }
+    header h1 { font-size: 22px; color: #00d4ff; }
+    nav a { color: white; margin: 0 10px; text-decoration: none; font-weight: 500; }
+    .btn { background: #00d4ff; color: #0a2540; padding: 10px 18px; border-radius: 8px; text-decoration: none; font-weight: bold; border: none; }
+    .hero { background: linear-gradient(135deg, #0a2540, #003366); color: white; text-align: center; padding: 60px 20px; }
+    .hero h2 { font-size: 28px; margin-bottom: 10px; }
+    .hero .promise { font-size: 18px; color: #00ff88; font-weight: bold; margin-bottom: 10px; }
+    .section { padding: 40px 20px; text-align: center; }
+    .section h3 { font-size: 24px; margin-bottom: 20px; color: #0a2540; }
+    .benefits { display: grid; grid-template-columns: 1fr; gap: 15px; }
+    .card { background: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+    .cta { background: #00d4ff; color: #0a2540; padding: 40px 20px; text-align: center; }
+    footer { background: #0a2540; color: white; text-align: center; padding: 20px; }
+    @media (min-width: 768px) { .benefits { grid-template-columns: repeat(2, 1fr); } header { padding: 15px 50px; }
+  </style>
+</head>
+<body>
 
+  <header>
+    <h1>SKR-International</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#benefits">Membership</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#contact" class="btn">Become Member</a>
+  </header>
+
+  <section class="hero" id="home">
+    <h2>Safe Your Business with SKR-International</h2>
+    <div class="promise">Our Policies - Never You Face Any Loss</div>
+    <p>Business Improvement + Financial Help + Trusted Financers</p>
+    <a href="#contact" class="btn">Become a Member</a>
+  </section>
+
+  <section class="section" id="benefits">
+    <h3>Members Are Eligible For All These</h3>
+    <div class="benefits">
+      <div class="card"><h4>Business Improvement</h4><p>Multiple strategies to grow your company</p></div>
+      <div class="card"><h4>Financial Help</h4><p>Direct support for your business needs</p></div>
+      <div class="card"><h4>Verified Financers</h4><p>Access to our trusted financer network</p></div>
+      <div class="card"><h4>Loss Protection</h4><p>We support you. Never you face any loss</p></div>
+    </div>
+  </section>
+
+  <section class="cta" id="contact">
+    <h3>Join 100s of Safe & Growing Companies</h3>
+    <button class="btn" onclick="window.open('https://wa.me/923001234567','_blank')">Contact Us on WhatsApp</button>
+  </section>
+
+  <footer>
+    <p>© 2026 SKR-International. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>

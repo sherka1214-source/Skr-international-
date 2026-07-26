@@ -1,8 +1,8 @@
 // WhatsApp Button Click
 document.getElementById('whatsappBtn').addEventListener('click', function() {
   // Yahan apna WhatsApp number dal dein country code ke sath
-  // Example: Pakistan 92 + 3001234567
-  window.open('https://wa.me/923001234567', '_blank');
+  // Example: Pakistan 92 + 3113604581
+  window.open('https://wa.me/923113604581', '_blank');
 });
 
 // Join Button Click

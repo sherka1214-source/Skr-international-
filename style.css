@@ -48,3 +48,19 @@ nav a:hover {
   cursor: pointer; 
   transition: 0.3s; 
   display:
+/* Mobile Responsive Fix */
+@media (max-width: 768px) {
+  header { 
+    padding: 15px 20px; 
+    flex-direction: column;
+    gap: 10px;
+  }
+  nav { 
+    display: flex;
+    gap: 10px;
+  }
+  .hero { padding: 60px 20px; }
+  .hero h2 { font-size: 28px; }
+  .section { padding: 40px 20px; }
+  .btn { font-size: 14px; padding: 10px 18px; }
+}
